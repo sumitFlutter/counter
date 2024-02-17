@@ -14,22 +14,22 @@ class Provider1 with ChangeNotifier{
   }
   void x2()
   {
-    i=i*i;
+    i=i*2;
     notifyListeners();
   }
   void x3()
   {
-    i=i*i*i;
+    i=i*3;
     notifyListeners();
   }
   void x4()
   {
-    i=i*i*i*i;
+    i=i*4;
     notifyListeners();
   }
   void x5()
   {
-    i=i*i*i*i*i;
+    i=i*5;
     notifyListeners();
   }
 }
